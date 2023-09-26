@@ -1,0 +1,47 @@
+import styled from "styled-components";
+
+const SelectInput = ({
+  name,
+  onClick,
+  onBlur,
+  color,
+  background,
+  children,
+  borderRadius,
+  width,
+  onChange,
+  value,
+  onSelect,
+}) => {
+  return (
+    <Input
+      name={name}
+      id={name}
+      onClick={onClick}
+      onChange={onChange}
+      onSelect={onSelect}
+      value={value}
+      borderRadius={borderRadius}
+      width={width}
+      color={color}
+      onBlur={onBlur}
+    >
+      {children}
+    </Input>
+  );
+};
+
+const Input = styled.select`
+  padding: 1rem 1.5rem;
+  border-radius: ${(props) => props.borderRadius || "5px"};
+  max-width: ${(props) => props.width || "50%"};
+  border: none;
+  background-color: #f9f9f9;
+  color: ${(props) => props.color || "#2e2e2e"};
+
+  &:focus {
+    outline: none;
+  }
+`;
+
+export default SelectInput;

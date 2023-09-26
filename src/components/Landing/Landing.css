@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.im{
+
+    width:100%;
+   height:600px
+}
+.head{
+    color:black;
+    font-size:50px;
+    font-family:inherit;
+    font-weight:600;
+    width:600px;
+
+}
+.head span{
+    color:44842F !important;
+}
+.txt{
+    position: absolute;
+    margin-left:70px;
+  
+    z-index: 1000;
+    margin-top: 200px;
+    
+}
+.pt{
+    width: 70%;
+    font-size: 20px;
+}
+.bttn{
+   
+    background-color: #79b660;
+    border-radius: 5px;
+    border: none;
+    padding: 0.9rem 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 60%;
+    margin-top: 10px;
+
+}
+.btdtn{
+   
+    background-color: #79b660;
+    border-radius: 5px;
+    border: none;
+    padding: 0.9rem 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+   text-align:center;
+ 
+    margin-top: 20px;
+    margin-left:40%;
+
+}
+.btnn{
+   
+    background-color: #79b660;
+    border-radius: 5px;
+    border: none;
+    padding: 0.9rem 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 5px;
+    margin-top: 10px;
+
+}
+
+/* Counter Session */
+
+.counter{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.counter .span1{
+    font-size: 30px;
+    font-weight: 700;
+ padding: 40px;
+}
+.sp2{
+    font-size: 17px !important;
+    
+}
+.sp2 span{
+    padding: 33px;
+}
+
+/* Build */
+.txt2{
+    margin-left: 170px;
+    position: relative;
+}
+.pt{
+    font-size: 20px;
+}
+.bttn1{
+   
+    background-color: white;
+    border-radius: 15px;
+    border: 4px solid  #79b660;
+    padding: 0.9rem 3rem;
+    color:  #79b660;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    
+    margin-top: 10px;
+
+}
+
+/* Get Mobile */
+.get{
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+}
+.pd{
+    margin: 20px;
+}
+.dx{
+    width: 500px;
+}
+.ic{
+    font-size: 20px;
+   
+}
+.mg{
+    margin-top: 30px;
+}
+.chooseo{
+    margin-top: 30px;
+}
+
+.box-shadow{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    background:white;
+    border-radius:5px;
+    height:90px;
+    margin:auto;
+
+}
+.box{
+    	box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    background:white;
+    border-radius:5px;
+}
+.flex{
+    display:flex;
+}
+.box2{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+   
+}

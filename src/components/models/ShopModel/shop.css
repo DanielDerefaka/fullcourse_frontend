@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+.shop-model-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.item-availabilty {
+  color: #79b660;
+  font-weight: 600;
+}
+
+.item-image {
+  border-radius: 10px;
+}
+
+.item-amount {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.shop-item {
+  cursor: pointer;
+}
+.bx {
+
+  height: 50px;
+  width: 200% !important;
+  font-family: inherit;
+
+  color: black;
+}
+.bx2 {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+  height: 100px;
+  width: 100% !important;
+  font-family: inherit;
+
+  color: black;
+}
+.bnn {
+  background-color: #79b660;
+  border-radius: 5px;
+  border: none;
+  padding: 0.9rem 3rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+
+  margin-left: 120%;
+}
+@media (max-width: 600px) {
+    .bx{
+          width: 100% !important;
+    }
+}
+@media (max-width: 800px) {
+    .bx{
+          width: 100% !important;
+    }
+}
